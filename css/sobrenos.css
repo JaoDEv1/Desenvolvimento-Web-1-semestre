@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkslateblue;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(199, 52, 52);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  font-family: "lucida handwriting";
+}
+
+.conteudo {
+  display: flex;
+}
+
+nav {
+  width: auto;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+main {
+  width: 80%;
+  background-color: rgb(232, 232, 101);
+  padding: 10px;
+  display: flex;
+}
+
+footer {
+  background-color: rgb(199, 52, 52);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+aside {
+  background-color: blueviolet;
+  padding: 10px;
+  width: 40%;
+  margin-left: 20px;
+}
+
+header .logo {
+  padding: 20px;
+  width: 30%;
+  margin-right: 10px;
+}
+
+header .titulo {
+  padding: 20px;
+  width: 70%;
+}
+
+header .logo img {
+  width: 100%;
+}
